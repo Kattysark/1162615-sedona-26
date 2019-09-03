@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Трофимова Екатерина](https://up.htmlacademy.ru/htmlcss/26/user/1162615).
-* Наставник: [Юлия Антонова](https://htmlacademy.ru/profile/id39082).
+* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/26/user/1162615).
+* Наставник: `Неизвестно`.
 
 ---
 
