@@ -14,7 +14,7 @@
                 <li><a href="catalog.html">Гостиницы</a></li>
             </ul>
             <a href="index.html">
-                <img src="img/logo-sedona.svg" width="100" height="100" alt="седона" />
+                <img src="img/logo-sedona.svg" width="120" height="60" alt="седона" /> 
             </a>
         </nav>
     </header>
@@ -31,6 +31,19 @@
         <p>Укажите предполагаемые даты поезки,</p>
         <p>и мы покажем вам лучшие предлжения гостиниц в Седоне</p>
     </section>
+    <div class="visually-hidden">
+        <form action="#" class="main-search">
+            <label for="arrival">Дата заезда:</label>
+            <input type="date" name="arrival" id="arrival">
+            <label for="departure">Дата выезда:</label>
+            <input type="date" name="departure" id="departure">
+            <label for="adults">Взрослые:</label>
+            <input type="number" value="1" min="0" name="adults" id="adults">
+            <label for="kids">Дети:</label>
+            <input type="number" value="1" min="0" name="kids" id="kids">
+            <input type="submit" value="Найти">
+        </form>
+    </div>
     <footer class="page-footer">
         <div class="hashtag">
             <p>#VISITSEDONA</p>
