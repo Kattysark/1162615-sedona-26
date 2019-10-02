@@ -31,17 +31,28 @@
         <p>Укажите предполагаемые даты поезки,</p>
         <p>и мы покажем вам лучшие предлжения гостиниц в Седоне</p>
     </section>
-    <div class="visually-hidden">
-        <form action="#" class="main-search">
+     <div>
+        <button type="button">Поиск гостиницы в Седоне</button>
+        <form action="#"  method="post">
             <label for="arrival">Дата заезда:</label>
-            <input type="date" name="arrival" id="arrival">
+            <input type="text" name="arrival" id="arrival">
+            <button class="form-search__calendar" type="button">
+             <img src="img/calendar.svg" alt="calendar" width="21" height="22">
+                </button>
             <label for="departure">Дата выезда:</label>
-            <input type="date" name="departure" id="departure">
+            <input type="text" name="departure" id="departure">
+             <button class="form-search__calendar" type="button">
+             <img src="img/calendar.svg" alt="calendar" width="21" height="22">
+                </button>   
             <label for="adults">Взрослые:</label>
+             <button type="button">-</button>
             <input type="number" value="1" min="0" name="adults" id="adults">
+             <button type="button">+</button>
             <label for="kids">Дети:</label>
+             <button type="button">-</button>
             <input type="number" value="1" min="0" name="kids" id="kids">
-            <input type="submit" value="Найти">
+             <button type="button">+</button>
+            <button type="submit">Найти</button>
         </form>
     </div>
     <footer class="page-footer">
