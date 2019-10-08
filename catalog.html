@@ -3,53 +3,62 @@
 <head>
     <meta charset="utf-8">
     <title>Седона-каталог</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="main-header">
         <nav class="main-navigation">
             <ul class="site-navigation">
-                <li><a href="#">Информация</a></li>
-                <li><a href="#">Фото и видео</a></li>
-                <li><a href="#">Карта штата</a></li>
-                <li><a>Гостиницы</a></li>
+                <li class="navigation-item"><a href="#">Информация</a></li>
+                <li class="navigation-item"><a href="#">Фото и видео</a></li>
+                <li class="navigation-item"><a href="#">Карта штата</a></li>
+                <li><a href="catalog.html">Гостиницы</a></li>
             </ul>
-            <a href="index.html">
+            <a class="main-header-logo" href="index.html">
                 <img src="img/logo-sedona.svg" width=120 height="60" alt="Седона" />
             </a>
         </nav>
-
     </header>
     <section>
-        <ul>
-            <li>
-                <img src="img/amarahotel.jpg" width="135" height="90" alt="amara hotel">
-                <h3><a href="#">AMARA RESORT & SPA</a></h3>
-                <p>гостиница</p>
-                <p>от 4000р</p>
-                <a href="#">подробнее</a>
-                <a href="#">забронировать</a>
-                <p>четыре звезды</p>
-                <p>рейтинг 8.5</p>
+        <ul class="hotels-list">
+            <li class="hotel-item">
+                <div class="hotel-information">
+                    <img src="img/amarahotel.jpg" width="135" height="90" alt="amara hotel">
+                    <h3><a class="hotel-link" href="#">AMARA RESORT & SPA</a></h3>
+                    <p>гостиница</p>
+                    <p>от 4000р</p>
+                    <a class="button-blue" href="#">Подробнее</a>
+                    <a class="button-brown" href="#">Забронировать</a>
+                    <p>четыре звезды</p>
+                    <p>рейтинг 8.5</p>
+                </div>
             </li>
-            <li>
-                <img src="img/deserthotel.jpg" width="135" height="90" alt="desert hotel">
-                <h3><a href="#">DESERT QUAIL INN</a></h3>
-                <p>мотель</p>
-                <p>от 3000р</p>
-                <a href="#">подробнее</a>
-                <a href="#">забронировать</a>
-                <p>три звезды</p>
-                <p>рейтинг 8.9</p>
+            <li class="hotel-item">
+                <div class="hotel-information">
+                    >
+                    <img src="img/deserthotel.jpg" width="135" height="90" alt="desert hotel">
+                    <h3><a class="hotel-link" href="#">DESERT QUAIL INN</a></h3>
+                    <p>мотель</p>
+                    <p>от 3000р</p>
+                    <a class="button-blue" href="#">Подробнее</a>
+                    <a class="button-brown" href="#">Забронировать</a>
+                    <p>три звезды</p>
+                    <p>рейтинг 8.9</p>
+                </div>
             </li>
-            <li>
-                <img src="img/villahotel.jpg" width="135" height="90" alt="villa Diablo">
-                <h3><a href="#">VILLAS AT POCO DIABLO</a></h3>
-                <p>апартаменты</p>
-                <p>от 2000р</p>
-                <a href="#">подробнее</a>
-                <a href="#">забронировать</a>
-                <p>две звезды</p>
-                <p>рейтинг 9.2</p>
+            <li class="hotel-item">
+                <div class="hotel-information">
+                    <img src="img/villahotel.jpg" width="135" height="90" alt="villa Diablo">
+                    <h3><a class="hotel-link" href="#">VILLAS AT POCO DIABLO</a></h3>
+                    <p>апартаменты</p>
+                    <p>от 2000р</p>
+                    <a class="button-blue" href="#">Подробнее</a>
+                    <a class="button-brown" href="#">Забронировать</a>
+                    <p>две звезды</p>
+                    <p>рейтинг 9.2</p>
+                </div>
             </li>
         </ul>
     </section>

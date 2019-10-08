@@ -3,18 +3,21 @@
 <head>
     <meta charset="utf-8">
     <title>Седона-главная</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="main-header">
         <nav class="main-navigation">
             <ul class="site-navigation">
-                <li><a href="#">Информация</a></li>
-                <li><a href="#">Фото и видео</a></li>
-                <li><a href="#">Карта штата</a></li>
+                <li class="navigation-item"><a href="#">Информация</a></li>
+                <li class="navigation-item"><a href="#">Фото и видео</a></li>
+                <li class="navigation-item"><a href="#">Карта штата</a></li>
                 <li><a href="catalog.html">Гостиницы</a></li>
             </ul>
-            <a href="index.html">
-                <img src="img/logo-sedona.svg" width="120" height="60" alt="седона" /> 
+            <a class="main-header-logo" href="index.html">
+                <img src="img/logo-sedona.svg" width="120" height="60" alt="седона" />
             </a>
         </nav>
     </header>
@@ -28,31 +31,31 @@
     </section>
     <section>
         <b>ЗАИНТЕРЕСОВАЛИСЬ?</b>
-        <p>Укажите предполагаемые даты поезки,</p>
+        <p>Укажите предполагаемые даты поездки,</p>
         <p>и мы покажем вам лучшие предлжения гостиниц в Седоне</p>
     </section>
-     <div>
-        <button type="button">Поиск гостиницы в Седоне</button>
-        <form action="#"  method="post">
+    <div>
+        <button class="button-brown" type="button">Поиск гостиницы в Седоне</button>
+        <form action="#" method="post">
             <label for="arrival">Дата заезда:</label>
             <input type="text" name="arrival" id="arrival">
             <button class="form-search__calendar" type="button">
-             <img src="img/calendar.svg" alt="calendar" width="21" height="22">
-                </button>
+                <img src="img/calendar.svg" alt="calendar" width="21" height="22">
+            </button>
             <label for="departure">Дата выезда:</label>
             <input type="text" name="departure" id="departure">
-             <button class="form-search__calendar" type="button">
-             <img src="img/calendar.svg" alt="calendar" width="21" height="22">
-                </button>   
+            <button class="form-search__calendar" type="button">
+                <img src="img/calendar.svg" alt="calendar" width="21" height="22">
+            </button>
             <label for="adults">Взрослые:</label>
-             <button type="button">-</button>
+            <button type="button">-</button>
             <input type="number" value="1" min="0" name="adults" id="adults">
-             <button type="button">+</button>
+            <button type="button">+</button>
             <label for="kids">Дети:</label>
-             <button type="button">-</button>
+            <button type="button">-</button>
             <input type="number" value="1" min="0" name="kids" id="kids">
-             <button type="button">+</button>
-            <button type="submit">Найти</button>
+            <button type="button">+</button>
+            <button class="button-blue" type="submit">Найти</button>
         </form>
     </div>
     <footer class="page-footer">

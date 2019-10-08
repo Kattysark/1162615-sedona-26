@@ -1,0 +1,146 @@
+﻿
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+main-navigation {
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.site-navigation {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-item {
+    width: 239px;
+    min-height: 56px;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+    .site-navigation a {
+        color: #000000;
+    }
+
+        .site-navigation a:hover,
+        .site-navigation a:focus {
+            color: #81b3d2;
+        }
+
+        .site-navigation a:active {
+            color: rgba(0, 0, 0, 0.3);
+        }
+
+.main-header-logo {
+    position: absolute;
+    margin-left: -70px;
+    left: 50%;
+}
+
+.button-brown {
+    font: inherit;
+    font-size: 21px;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #766357;
+    border: none;
+}
+
+    .button-brown:hover,
+    .button-brown:focus {
+        background-color: #604e43;
+    }
+
+    .button-brown:active {
+        color: rgba(255, 255, 255, 0.3);
+        background-color: #503e33;
+    }
+
+
+.button-blue {
+    font: inherit;
+    font-size: 21px;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #81b3d2;
+    border: none;
+}
+
+    .button-blue:hover,
+    .button-blue:focus {
+        background-color: #669ec0;
+    }
+
+    .button-blue:active {
+        color: rgba(255, 255, 255, 0.3);
+        background-color: #5496bd;
+    }
+
+.page-footer {
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+.hashtag {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.page-footer-social {
+    text-align: center;
+}
+
+    .page-footer-social ul {
+        list-style: none;
+    }
+
+hotels-list {
+    list-style: none;
+}
+
+.hotel-item {
+    background-color: #ffffff;
+}
+
+    .hotel-item .hotel-link {
+        font-size: 21px;
+        font-weight: bold;
+        color: #000000;
+    }
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
