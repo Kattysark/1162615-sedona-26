@@ -10,32 +10,33 @@
 <body>
     <header class="main-header">
         <nav class="main-navigation">
+            <a class="main-header-logo" href="index.html">
+                <img src="img/logo-sedona.svg" width="140" height="72" alt="седона" />
+            </a>
             <ul class="site-navigation">
                 <li class="navigation-item"><a href="#">Информация</a></li>
                 <li class="navigation-item"><a href="#">Фото и видео</a></li>
                 <li class="navigation-item"><a href="#">Карта штата</a></li>
-                <li><a href="catalog.html">Гостиницы</a></li>
+                <li class="navigation-item"><a href="catalog.html">Гостиницы</a></li>
             </ul>
-            <a class="main-header-logo" href="index.html">
-                <img src="img/logo-sedona.svg" width="120" height="60" alt="седона" />
-            </a>
+
         </nav>
     </header>
     <section class="intro">
         <h1 class="visually-hidden">Welcome to the gorgeous Sedona</h1>
-        <img class="intro-image" src="img/intro-welcome.svg" alt="">
+        <img class="intro-image" src="img/intro-welcome.svg" alt="welcome to the gorgeous Sedona" width="459" height="353">
     </section>
     <section class="title-block">
         <h2 class="title-block-headline">Седона — небольшой городок в Аризоне, заслуживающий большего! </h2>
         <p class="title-block-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
     </section>
-    <section>
-        <b>ЗАИНТЕРЕСОВАЛИСЬ?</b>
+    <section class="hotel-search-header">
+        <h3 class="hotel-search-header">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
         <p>Укажите предполагаемые даты поездки,</p>
         <p>и мы покажем вам лучшие предлжения гостиниц в Седоне</p>
     </section>
     <div>
-        <button class="button-brown" type="button">Поиск гостиницы в Седоне</button>
+        <button class="button-brown-search" type="button">Поиск гостиницы в Седоне</button>
         <form action="#" method="post">
             <label for="arrival">Дата заезда:</label>
             <input type="text" name="arrival" id="arrival">
@@ -55,7 +56,7 @@
             <button type="button">-</button>
             <input type="number" value="1" min="0" name="kids" id="kids">
             <button type="button">+</button>
-            <button class="button-blue" type="submit">Найти</button>
+            <button class="button-blue-search" type="submit">Найти</button>
         </form>
     </div>
     <footer class="page-footer">
