@@ -33,32 +33,35 @@
             </div>
             <section class="hotel-search-header">
                 <h3 class="hotel-search-header">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
-                <p>Укажите предполагаемые даты поездки,</p>
-                <p>и мы покажем вам лучшие предлжения гостиниц в Седоне</p>
+                <p>
+                    Укажите предполагаемые даты поездки,
+                    <br>и мы покажем вам лучшие предлжения гостиниц в Седоне
+                </p>
             </section>
             <section class="search-form-main">
                 <button class="button-brown-search" type="button">Поиск гостиницы в Седоне</button>
                 <form action="#" method="post" class="search-form">
                     <p class="search-hotel-item">
                         <label for="arrival">Дата заезда:</label>
-                        <input type="text" class="search-text" name="arrival" id="arrival">
-                        <button class="form-search__calendar" type="button">
-                            
-                        </button>
+                        <span class="find-calendar-form">
+                            <input type="text" class="search-text" name="arrival" id="arrival">
+                            <button class="form-search__calendar" type="button"></button>
+                        </span>
+
                     </p>
                     <p class="search-hotel-item">
                         <label for="departure">Дата выезда:</label>
-                        <input type="text" name="departure" id="departure">
-                        <button class="form-search__calendar" type="button">
-                          
-                        </button>
+                        <span class="find-calendar-form">
+                            <input type="text" name="departure" id="departure">
+                            <button class="form-search__calendar" type="button"></button>
+                        </span>
                     </p>
                     <p class="search-hotel-guest">
                         <label for="adults">Взрослые:</label>
                         <button type="button" class="btn-minus">-</button>
                         <input type="text" value="1" min="0" name="adults" id="adults">
                         <button type="button" class="btn-plus">+</button>
-                        <label for="kids"class="kids" >Дети:</label>
+                        <label for="kids" class="kids">Дети:</label>
                         <button type="button" class="btn-minus">-</button>
                         <input type="text" value="1" min="0" name="kids" id="kids">
                         <button type="button" class="btn-plus">+</button>
