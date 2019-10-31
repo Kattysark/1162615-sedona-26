@@ -41,30 +41,27 @@
             <section class="search-form-main">
                 <button class="button-brown-search" type="button">Поиск гостиницы в Седоне</button>
                 <form action="#" method="post" class="search-form">
-                    <p class="search-hotel-item">
+                    <div class="search-hotel-item">
                         <label for="arrival">Дата заезда:</label>
-                        <span class="find-calendar-form">
-                            <input type="text" class="search-text" name="arrival" id="arrival">
-                            <button class="form-search__calendar" type="button"></button>
-                        </span>
+                        <input type="text" class="find-calendar-form" name="" arrival" id="arrival" value="24 апреля 2017" placeholder="введите дату">
+                        <button class="form-search__calendar" type="button"></button>
 
-                    </p>
-                    <p class="search-hotel-item">
+                    </div>
+                    <div class="search-hotel-item">
                         <label for="departure">Дата выезда:</label>
-                        <span class="find-calendar-form">
-                            <input type="text" name="departure" id="departure">
-                            <button class="form-search__calendar" type="button"></button>
-                        </span>
-                    </p>
+                        <input type="text" class="find-calendar-form" name="departure" id="departure" value="4 июля 2017" placeholder="введите дату">
+                        <button class="form-search__calendar" type="button"></button>
+
+                    </div>
                     <p class="search-hotel-guest">
                         <label for="adults">Взрослые:</label>
-                        <button type="button" class="btn-minus">-</button>
+                        <button type="button" class="btn-minus"></button>
                         <input type="text" value="1" min="0" name="adults" id="adults">
-                        <button type="button" class="btn-plus">+</button>
+                        <button type="button" class="btn-plus"></button>
                         <label for="kids" class="kids">Дети:</label>
-                        <button type="button" class="btn-minus">-</button>
+                        <button type="button" class="btn-minus"></button>
                         <input type="text" value="1" min="0" name="kids" id="kids">
-                        <button type="button" class="btn-plus">+</button>
+                        <button type="button" class="btn-plus"></button>
                     </p>
 
                     <button class="button-blue-search" type="submit">Найти</button>
