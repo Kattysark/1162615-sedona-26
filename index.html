@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="body">
-    <section class="wrapper">
+    <div class="wrapper">
         <header class="main-header">
             <nav class="main-navigation">
                 <a class="main-header-logo" href="index.html">
@@ -90,12 +90,12 @@
                 </p>
             </section>
 
-            <section class="search-form-main">
+            <div class="search-form-main">
                 <button class="button-brown-search" type="button">Поиск гостиницы в Седоне</button>
                 <form action="#" method="post" class="search-form">
                     <div class="search-hotel-item">
                         <label for="arrival">Дата заезда:</label>
-                        <input type="text" class="find-calendar-form" name="" arrival" id="arrival" value="24 апреля 2017" placeholder="введите дату">
+                        <input type="text" class="find-calendar-form" name="arrival" id="arrival" value="24 апреля 2017" placeholder="введите дату">
                         <button class="form-search__calendar" type="button">
                             <svg class="calendar" xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22">
                                 <path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z" />
@@ -117,11 +117,11 @@
                     <p class="search-hotel-guest">
                         <label for="adults">Взрослые:</label>
                         <button type="button" class="btn-minus"></button>
-                        <input type="text" value="2" min="0" name="adults" id="adults">
+                        <input type="text" value="2"  name="adults" id="adults">
                         <button type="button" class="btn-plus"></button>
                         <label for="kids" class="kids">Дети:</label>
                         <button type="button" class="btn-minus-kids"></button>
-                        <input type="text" value="0" min="0" name="kids" id="kids">
+                        <input type="text" value="0"  name="kids" id="kids">
                         <button type="button" class="btn-plus"></button>
                     </p>
 
@@ -130,7 +130,7 @@
                 <div class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.13567337545!2d-111.83024374146117!3d34.854443790731445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2s!4v1570013600679!5m2!1sru!2s" width="1200" height="593" allowfullscreen=""></iframe>
                 </div>
-            </section>
+            </div>
         </main>
         <footer class="page-footer index-footer">
             <p class="hashtag footer-width">
@@ -159,7 +159,7 @@
             </p>
 
         </footer>
-    </section>
+    </div>
 </body>
 </html>
 

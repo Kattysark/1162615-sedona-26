@@ -37,6 +37,7 @@ input[type="radio"].visually-hidden {
 
     .wrapper a {
         text-decoration: none;
+      
     }
 
     .wrapper ul {
@@ -113,8 +114,7 @@ input[type="radio"].visually-hidden {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
-    padding-top: -76px;
-    padding-bottom: -60px;
+   
 }
 
     .block-welcome img {
@@ -226,7 +226,7 @@ input[type="radio"].visually-hidden {
 }
 
 .advantage-large-block p {
-    width: 305px;
+    width: 304px;
     margin: 0 auto;
 }
 
@@ -243,7 +243,7 @@ input[type="radio"].visually-hidden {
 
 .advantage-item h3,
 .advantage-item h2 {
-    width: 160px;
+    width: 158px;
     margin: 0 auto;
 }
 
@@ -730,7 +730,7 @@ input[type="radio"].visually-hidden {
         fill: #81b3d2;
     }
 
-.academy-logo-logo:active {
+.academy-logo:active {
     fill: #bdbbbc;
 }
 
@@ -1108,25 +1108,21 @@ input[type="radio"].visually-hidden {
     flex-wrap: wrap;
 }
 
-.star-item.stars-4::after {
-    content: "\2605\00a0\2605\00a0\2605\00a0\2605";
+.star{
+    height: 17px;
+    display: flex;
+    justify-content: flex-end;
+    right: 70px;
+    margin-bottom: 47px;
+    position:absolute;
 }
 
-.star-item.stars-3::after {
-    content: "\2605\00a0\2605\00a0\2605";
+.star img {
+    margin-right: 6px;
 }
 
-.star-item.stars-2::after {
-    content: "\2605\00a0\2605";
-}
-
-.star-item::after {
-    font-size: 22px;
-    line-height: 26px;
-    color: #81b3d2;
-    position: absolute;
-    right: 71px;
-    top: 27px;
+.star img:last-child {
+    margin-right: 0;
 }
 
 .icon-twitter::before {
@@ -1164,6 +1160,10 @@ input[type="radio"].visually-hidden {
     margin-top: 18px;
 }
 
+.copyright a{
+    color: #000;
+}
+ 
 .rating-card {
     display: flex;
     justify-content: space-between;
