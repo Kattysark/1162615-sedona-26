@@ -102,9 +102,7 @@ input[type="radio"].visually-hidden {
         color: rgba(0, 0, 0, 0.3);
     }
 
-.container {
-    margin-bottom: 100px;
-}
+
 
 .block-welcome {
     width: 100%;
@@ -547,7 +545,7 @@ input[type="radio"].visually-hidden {
 
 .search-form {
     background-color: #ffffff;
-    padding: 55px;
+    padding: 0 55px;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -556,6 +554,11 @@ input[type="radio"].visually-hidden {
     box-sizing: border-box;
     margin-left: 316px;
     width: 568px;
+    max-height: 0;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    overflow: hidden;
 }
 
 .search-form-main {
@@ -1233,3 +1236,8 @@ input[type="radio"].visually-hidden {
     .map iframe {
         border: 0;
     }
+
+.form-show {
+    padding: 55px;
+    max-height: 600px;
+}
