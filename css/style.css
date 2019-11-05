@@ -37,7 +37,6 @@ input[type="radio"].visually-hidden {
 
     .wrapper a {
         text-decoration: none;
-      
     }
 
     .wrapper ul {
@@ -114,7 +113,6 @@ input[type="radio"].visually-hidden {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
-   
 }
 
     .block-welcome img {
@@ -730,9 +728,9 @@ input[type="radio"].visually-hidden {
         fill: #81b3d2;
     }
 
-.academy-logo:active {
-    fill: #bdbbbc;
-}
+    .academy-logo:active {
+        fill: #bdbbbc;
+    }
 
 .page-footer-social {
     text-align: center;
@@ -1108,22 +1106,22 @@ input[type="radio"].visually-hidden {
     flex-wrap: wrap;
 }
 
-.star{
+.star {
     height: 17px;
     display: flex;
     justify-content: flex-end;
     right: 70px;
     margin-bottom: 47px;
-    position:absolute;
+    position: absolute;
 }
 
-.star img {
-    margin-right: 6px;
-}
+    .star img {
+        margin-right: 6px;
+    }
 
-.star img:last-child {
-    margin-right: 0;
-}
+        .star img:last-child {
+            margin-right: 0;
+        }
 
 .icon-twitter::before {
     background-image: url(../img/twitter.svg);
@@ -1160,10 +1158,10 @@ input[type="radio"].visually-hidden {
     margin-top: 18px;
 }
 
-.copyright a{
-    color: #000;
-}
- 
+    .copyright a {
+        color: #000;
+    }
+
 .rating-card {
     display: flex;
     justify-content: space-between;
