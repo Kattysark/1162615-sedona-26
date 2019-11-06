@@ -4,7 +4,9 @@ var arrivalDate = form.querySelector("[name=arrival]");
 var departureDate = form.querySelector("[name=departure");
 var adults = form.querySelector("[name=adults]");
 var kids = form.querySelector("[name=kids]");
-
+if (form) {
+    form.classList.remove('form-show');
+}
 
 
 search_hotel.addEventListener("click", function (evt) {
