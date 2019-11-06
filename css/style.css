@@ -63,6 +63,10 @@ input[type="radio"].visually-hidden {
     min-height: 56px;
 }
 
+.site-navigation .current {
+    color: #766357;
+}
+
 .site-navigation li {
     box-sizing: border-box;
     width: 20%;
@@ -101,7 +105,6 @@ input[type="radio"].visually-hidden {
     .site-navigation a:active {
         color: rgba(0, 0, 0, 0.3);
     }
-
 
 
 .block-welcome {
@@ -668,6 +671,8 @@ input[type="radio"].visually-hidden {
     right: 0;
     cursor: pointer;
     outline: none;
+    top: 0px;
+    height: 100%;
 }
 
 .calendar:hover,
@@ -1240,4 +1245,37 @@ input[type="radio"].visually-hidden {
 .form-show {
     padding: 55px;
     max-height: 600px;
+}
+
+.form-error {
+    animation: left-right 0.2s;
+}
+
+@keyframes left-right {
+    0%, 100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    20%, 60% {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+
+    40%, 80% {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+
+    10%, 30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+
+    50%, 70% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
 }

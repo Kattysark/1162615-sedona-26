@@ -20,8 +20,9 @@ search_hotel.addEventListener("click", function (evt) {
 form.addEventListener("submit", function (evt) {
     if (!arrivalDate.value || !departureDate.value || (adults.value < 1 && kids.value < 1)) {
         evt.preventDefault();
+        form.classList.remove("form-error");
+        form.offsetWidth = form.offsetWidth;
+        form.classList.add("form-error");
+
     }
-
-
-
 });
